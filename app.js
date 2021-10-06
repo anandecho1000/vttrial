@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { initializeApp } from "firebase-app";
-import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "firebase-auth";
-
+import ReactDOM from 'react-dom@17.0.1/umd/react-dom.development.js';
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js';
+import { getAuth, GoogleAuthProvider, signInWithPopup, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-auth.js"
 
 var user;
-
 
 const firebaseConfig = {
   apiKey: "AIzaSyAtoeJC8Pc0b7XO4KSxGONEL3fyxhqXXxQ",
